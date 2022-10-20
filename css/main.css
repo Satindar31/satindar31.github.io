@@ -1,0 +1,7 @@
+.gh {
+    transition: 500ms;
+}
+
+.gh:hover {
+    font-size: xx-large
+}
