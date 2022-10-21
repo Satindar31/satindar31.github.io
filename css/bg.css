@@ -2,9 +2,7 @@ html {
     height:100%;
   }
   
-  body {
-    margin:0;
-  }
+
   
   .bg {
     animation:slide 3s ease-in-out infinite alternate;
@@ -12,7 +10,7 @@ html {
     bottom:0;
     left:-50%;
     opacity:.5;
-    position:fixed;
+    position:absolute;
     right:-50%;
     top:0;
     z-index:-1;
@@ -34,7 +32,7 @@ html {
     box-sizing:border-box;
     left:50%;
     padding:8vmin;
-    position:fixed;
+    position:absolute;
     text-align:center;
     top:50%;
     transform:translate(-50%, -50%);
