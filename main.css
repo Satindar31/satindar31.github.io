@@ -5,9 +5,6 @@
 html {
     height: inherit !important;
     cursor: crosshair;
-    overflow: hidden;
-    overflow-x: hidden;
-    overflow-y: hidden;
     scroll-behavior: smooth;
 
 }
@@ -15,6 +12,9 @@ html {
 body {
     top: 0 !important;
     margin: auto;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 
