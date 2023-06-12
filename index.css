@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Quicksand';
+    src: url('./Quicksand-Regular.ttf');
+}
+
+body {
+    height: 100vh;
+    background-color: black;
+    color: white;
+    font-family: 'Quicksand';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+h1 {
+    color: #ddd;
+    font-size: 3rem;
+    transition: 75ms ease-in;
+}
+h1:hover {
+    color: white;
+    text-shadow: #ddd 1px 1px 50px;
+    font-size: 3.5rem;
+}
