@@ -2,15 +2,17 @@
     font-family: 'Quicksand';
     src: url('./Quicksand-Regular.ttf');
 }
-
+a {
+    text-decoration: none;
+}
 body {
-    height: 100vh;
     background-color: black;
-    color: white;
+    color: #ddd;
     font-family: 'Quicksand';
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     overflow: hidden;
 }
 
@@ -18,9 +20,13 @@ h1 {
     color: #ddd;
     font-size: 3rem;
     transition: 75ms ease-in;
+    margin: auto;
 }
-h1:hover {
-    color: white;
-    text-shadow: #ddd 1px 1px 50px;
-    font-size: 3.5rem;
+
+.projects {
+    /* generate a 3x4 grid */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 1rem;
 }
