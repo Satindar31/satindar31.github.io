@@ -1,0 +1,45 @@
+.card {
+    /* generate a grid where the first element takes 1/4 of the space and the remaing goes to the other elements */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: black;
+    color: #ddd;
+    margin: auto;
+    cursor: crosshair;
+    font-family: 'Quicksand';
+    border: 1px solid rgb(25, 25, 25);
+    max-width: 23rem;
+    max-height: 23rem;
+}
+.card img {
+    /* center this image inside the card */
+    margin: auto;
+    /* make this image take up all the space that is available to it inside the card */
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+
+.text-md {
+    font-size: 1.5rem;
+    border-bottom: 1px solid rgb(30, 30, 30);
+    padding-bottom: 2px;
+}
+.tech {
+    font-weight: bold;
+    font-size: medium;   
+}
+
+.visit {
+    background-color: white;
+    border: 1px solid rgb(30, 30, 30);
+    padding: 0.5rem 5rem;
+    margin: auto;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 2px;
+}
