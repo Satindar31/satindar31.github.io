@@ -1,10 +1,16 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
+
+import { Icon } from 'astro-icon/components'
 ---
 
 <Layout title="Welcome">
-	<main class="flex h-screen justify-center bg-black">
-		<h1 class="hover:text-white duration-75 text-[#ddd] font-bold text-7xl">Coming soon</h1>
+	<main class="flex flex-col h-screen items-center bg-[#202020]">
+		<h1 class="hover:text-white duration-75 text-[#ddd] font-bold text-7xl">Satindar</h1>
+		<ul class="display-flex flex-row gap-4">
+			<li><a href="mailto:satindar31@tutanota.com"><Icon name="logos:google-gmail" /></a></li>
+			<li><Icon name="logos:discord" /></li>
+			<li><a href="https://github.com/satindar31"><Icon name="logos:github-icon" /></a></li>
+		</ul>
 	</main>
 </Layout>
