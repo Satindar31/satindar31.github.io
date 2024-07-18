@@ -4,13 +4,27 @@ import Layout from '../layouts/Layout.astro';
 import { Icon } from 'astro-icon/components'
 ---
 
-<Layout title="Welcome">
-	<main class="flex flex-col h-screen items-center bg-[#202020]">
-		<h1 class="hover:text-white duration-75 text-[#ddd] font-bold text-7xl">Satindar</h1>
-		<ul class="display-flex flex-row gap-4">
-			<li><a href="mailto:satindar31@tutanota.com"><Icon name="logos:google-gmail" /></a></li>
-			<li><a href="https://discord.com/users/713254655999868931"><Icon name="logos:discord" /></a></li>
-			<li><a href="https://github.com/satindar31"><Icon name="logos:github-icon" /></a></li>
-		</ul>
+<Layout title="Satinder's Den">
+	<main class="flex flex-col h-screen items-center bg-white gap-8 p-4 m-auto">
+		<h1 class="hover:text-white duration-75 text-[#000] font-bold text-5xl">Welcome to Satindar's Den</h1>
+		<div class="grid grid-cols-2 gap-2 max-w-screen-lg text-[#0C0C0C]">
+			<div>
+				<p class="text-3xl font-black pb-3">Hi, I am Satindar</p>
+				<p class="text-2xl font-semibold pb-3">Fullstack web dev</p>
+				<p class="font-bold pb-3">2+ years of experience</p>
+				<p class="pb-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo, quo nostrum deserunt mollitia eum ipsam officiis quae laudantium laborum debitis.</p>
+				<a href="mailto:satindar31@tutanota.com"><button class="bg-[#edf2ec] w-full h-12 text-left flex gap-2 text-lg items-center p-3 rounded-md hover:mb-2 hover:shadow-md duration-200"><Icon name="ic:round-email" /><span class="font-semibold">Contact Me</span></button></a>
+				<div class="flex flex-row gap-4 text-lg mt-2 w-full justify-center">
+				<a target="_blank" href="https://discord.com/users/713254655999868931"><Icon class="hover:text-[#5865F2] hover:shadow-sm duration-200" name="ic:round-discord" size={32}  /></a>
+					<a target="_blank" href="https://github.com/satindar31"><Icon class="hover:shadow-sm duration-200" name="mdi:github" size={32} /></a>
+			<a target="_blank" href="https://twitter.com/satindar31"><Icon class="hover:text-[#08a0e9] hover:shadow-sm duration-200" name="mdi:twitter" size={32} /></a>
+				</div>
+			</div>
+
+			<div>
+				<img class="hover:shadow-lg duration-300 shadow-black rounded-full" src="./photo.png" alt="profile photo">
+			</div>
+		</div>
 	</main>
+	
 </Layout>

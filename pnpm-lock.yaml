@@ -14,9 +14,18 @@ importers:
       '@astrojs/tailwind':
         specifier: ^5.1.0
         version: 5.1.0(astro@4.11.5(@types/node@20.14.11)(typescript@5.5.3))(tailwindcss@3.4.6)
+      '@iconify-json/ic':
+        specifier: ^1.1.17
+        version: 1.1.17
       '@iconify-json/logos':
         specifier: ^1.1.43
         version: 1.1.43
+      '@iconify-json/mdi':
+        specifier: ^1.1.67
+        version: 1.1.67
+      '@iconify-json/tabler':
+        specifier: ^1.1.118
+        version: 1.1.118
       astro:
         specifier: ^4.11.5
         version: 4.11.5(@types/node@20.14.11)(typescript@5.5.3)
@@ -356,8 +365,17 @@ packages:
     cpu: [x64]
     os: [win32]
 
+  '@iconify-json/ic@1.1.17':
+    resolution: {integrity: sha512-EvAjZzVESmN36zlyefylePUNaU2BQ3eRKVZ6KQSQ2bG01ppoZaiFZRri74VTyvp5Mlv2yn68ux1fgCoT+etGmA==}
+
   '@iconify-json/logos@1.1.43':
     resolution: {integrity: sha512-UtvL1yDHUr9dl1Tqihh6K9m5dmbYKOYyLf3i9aKhymSW76QjOCGjpgQc0PQ4GJCAdU1cAMu+WO61TgPxdonrlg==}
+
+  '@iconify-json/mdi@1.1.67':
+    resolution: {integrity: sha512-00nllHES8hyACwIfgySlQgAE6MKgpr2wsKfpifMiZWZ9aXC5l4Jb0lR3lJSWwXgOW6kzAOdzC3T+2VOfBBZ13A==}
+
+  '@iconify-json/tabler@1.1.118':
+    resolution: {integrity: sha512-nDOjYG75BlagOe4e+V3K4qVFujdPOeYzi6ZB3sYz0xbdIkpSF/4YvKGdLDr4tmkwGUTV8fhlHVfMpRoDoBnnnA==}
 
   '@iconify/tools@3.0.7':
     resolution: {integrity: sha512-DxfhFLMnooS34dHelpGUnnYrxLZHs0czC1CgrBhAbuL8ddVzBb2VEQm8kh9qGh7A34qeXAB5iSHH3A72rAaFrg==}
@@ -2652,7 +2670,19 @@ snapshots:
   '@esbuild/win32-x64@0.21.5':
     optional: true
 
+  '@iconify-json/ic@1.1.17':
+    dependencies:
+      '@iconify/types': 2.0.0
+
   '@iconify-json/logos@1.1.43':
+    dependencies:
+      '@iconify/types': 2.0.0
+
+  '@iconify-json/mdi@1.1.67':
+    dependencies:
+      '@iconify/types': 2.0.0
+
+  '@iconify-json/tabler@1.1.118':
     dependencies:
       '@iconify/types': 2.0.0
 
